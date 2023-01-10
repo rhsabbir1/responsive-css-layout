@@ -47,3 +47,6 @@ input{
    font-size: 18px;
    color: aliceblue;
 }
+.menu-icon i{
+    margin-right: 20px;
+}
