@@ -1,0 +1,22 @@
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    grid-template-rows: 30px repeat(5 ,50px);
+    gap: 5px;
+}
+.date , .day{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid salmon;
+    font-size: 20px;
+}
+.other-month{
+    background-color: rgb(204, 243, 230);
+}
+.day{
+    background-color: blue;
+    color: aliceblue;
+}
